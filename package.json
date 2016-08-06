@@ -1,0 +1,43 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "\"# build\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldose/build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aldose/build/issues"
+  },
+  "homepage": "https://github.com/Aldose/build#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "client-sessions": "^0.7.0",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.0",
+    "hbs": "^4.0.0",
+    "mongoose": "^4.4.17"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "browser-sync": "2.6.5",
+    "gulp-autoprefixer": "2.1.0",
+    "gulp-cache": "0.2.8",
+    "gulp-concat": "2.5.2",
+    "gulp-imagemin": "2.2.1",
+    "gulp-node-inspector": "^0.1.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-plumber": "1.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "1.2.0"
+  }
+}
